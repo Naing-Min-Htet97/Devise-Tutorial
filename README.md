@@ -1,24 +1,19 @@
-# README
+# Devise Gem Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Getting Started
+To get started with the app, clone the repo and then install the needed gems:
+```
+$ bundle install
+```
+Next, devise install:
+```
+$ rails g devise:install
+```
+Next, database migration:
+```
+$ rails db:migrate or $ rake db:migrate
+```
+Finally, run server:
+```
+$ rails server or $ rails s
+```
